@@ -78,3 +78,10 @@ body{
     color: var(--color-orange1);
     width: 100%;
 }
+
+@media (max-width: 767px) {
+
+    .carousel-item img {
+        height: 280px;
+    }
+}
