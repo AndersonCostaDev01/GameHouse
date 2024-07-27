@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Games House</title>
+    <link rel="icon" href="./Imagens/logo-site.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar navbar-expand-lg sticky-top p-3 container" id="cabecalho">
+        <div class="container">
+            <a href="#">
+                <h1 class="navbar-branch m-0 titlepage h3">
+                    <img src="./Imagens/logo-site.png" alt="logo" width="60">
+                    Games <span>House</span>
+                </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-gamehouse" class="nav-link">
+                            <i class="bi bi-controller"></i>Sobre A GameHouse
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#enventos" class="nav-link">
+                            <i class="bi bi-calendar-check"></i> Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#catalogo" class="nav-link">
+                            <i class="bi bi-card-text"></i> Nosso catalogo
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text"></i> Fale conosco
+                        </a>
+                    </li>
+                </ul>
+        </div>
+    </header>
+    <!-- SOBRE A LOJA -->
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section class="pt-3" id="sobre-a-gamehouse">
+            <!-- CAROUSEL DE INICIAL -->
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./Imagens/Carousel/godofwar.jpg" alt="God of War" width="100%" height="800">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./Imagens/Carousel/minecraft.jpg" alt="minecraft" width="100%" height="800">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./Imagens/Carousel/spide-main.jpg" alt="spider-man" width="100%" height="800">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <!-- SOBRE A LOJA -->
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./Imagens/Area-game-house.jpg" alt="Espaço da GameHouse"
+                                class="d-block w-100 rounded mb-2">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-mb-0">
+                            <h2 class="section-title">
+                                Games<span>House</span>
+                            </h2>
+                            <p>
+                                A Games House e um projeto para incentivar as crianças atravez dos seus jogos favoritos
+                                a terem um melhor comportamento e notas na escola, o projeto consiste nas crianças
+                                trazerem seus boletins com boas notas para poder jogar os Games de forma completamente
+                                gratuita.
+                            </p>
+                            <a href="#" class="btn ajudar">
+                                Achou legal que ajudar? clica aqui.
+                            </a>
+                            <h3 class="section-title pt-1">
+                                Sobre <span>o Espaço</span>
+                            </h3>
+                            <p>
+                                Em nosso ambiente temos diversos localis para a criançada poder aproveitar entre elas.
+                            </p>
+                            <ul class="lista-local">
+                                <li>
+                                    Sala de computadores
+                                </li>
+                                <li>
+                                    Sala de quadrinhos
+                                </li>
+                                <li>
+                                    Messas para jogos de tabuleiro e cardgam
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CATALOGO DE EVENTOS -->
+        <section id="enventos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todos <span>os Gostos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-4 locais">
+                        <img class="d-block w-100 rounded mb-2" src="./Imagens/Area-game-house.jpg"
+                            alt="Sala de computadores" height="500">
+                        <h3 class="section-title text-colored text-center">
+                            <i class="bi bi-display"></i>
+                            Sala de computadores
+                        </h3>
+                        <p>
+                            Um local com varios computadores para a garotada poder desfrutar de varios jogos online.
+                        </p>
+                    </div>
+                    <div class="col-4 locais">
+                        <img class="d-block w-100 rounded mb-2" src="./Imagens/Catalogo/salamanga.jpg"
+                            alt="Sala de mangas" height="500">
+                        <h3 class="section-title text-colored text-center">
+                            <i class="bi bi-book-half"></i>
+                            Sala de mangas
+                        </h3>
+                        <p>
+                            Um local para as crianças poderem ler historias em quadrinhos, e assim poder melhorar sua
+                            leitura e escrita de forma didatica.
+                        </p>
+                    </div>
+                    <div class="col-4 locais">
+                        <img class="d-block w-100 rounded mb-2" src="./Imagens/Catalogo/mesa rpg.jpg"
+                            alt="Mesa para jogos" height="500">
+                        <h3 class="section-title text-colored text-center">
+                            <i class="bi bi-suit-spade"></i>
+                            Mesa de jogos de tabuleiro e CardGames
+                        </h3>
+                        <p>
+                            Um local onde as crianças podem jogar jogos de carta e tabuleiro para de forma ludica,
+                            desenvolver raciocinio logico e habilidade de tomada de decisão.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CATALOGO DE JOGOS -->
+        <section id="cardapio">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosse <span>cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pc"
+                                class="nav-link text-colored fw-bold text-start active">jogos de pc</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#leitura"
+                                class="nav-link text-colored fw-bold text-start">Sala de leitura</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tabuleiro-cardgame"
+                                class="nav-link text-colored fw-bold text-start">Tabuleiro e cardgames</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content cardapio">
+                            <!-- JOGOS PC -->
+                            <div class="tab-pane active" id="pc">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/a0/7e/eb/a07eeb846f05daa0554bdfd609f3fcb7.jpg"
+                                            alt="jogo spider-man" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Spider-Man 2</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/736x/4c/d5/45/4cd545cfd10a002633f1b334541777ab.jpg"
+                                            alt="Jogo godofwar" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">God of War ragnarok</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/236x/e8/db/1d/e8db1d01cfa8c52561c2631f48321cc7.jpg"
+                                            alt="jogo Elden Ring" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Elden Ring</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/d2/55/ac/d255ac78bb40edc96076bb4c22a32504.jpg"
+                                        alt="Jogo Grand Theft Auto V" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Grand Theft Auto V</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/4b/7e/98/4b7e98cae85aa6a9995af7651444e9f9.jpg"
+                                            alt="jogo Call of Duty: Warzone">
+                                        <h5 class="text-colored fw-bold mt-2">Call of Duty: Warzone</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/07/f8/97/07f897654a46d0604af62d2f81c3c2be.jpg" 
+                                        alt="jogo Overwatch">
+                                        <h5 class="text-colored fw-bold mt-2">Overwatch</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- MANGAS/QUADRINHOS/LIVROS -->
+                            <div class="tab-pane" id="leitura">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/736x/10/8e/3b/108e3b1df00743bb3ce908a48c8e7e47.jpg"
+                                            alt="One piece" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">One piece</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/3a/8c/63/3a8c63737ae2d94f9d4f09f477e3df34.jpg"
+                                            alt="naruto" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Naruto</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/33/50/6c/33506c04638c992f019851d7a613b22e.jpg"
+                                            alt="Batman" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Batman</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/17/5f/3e/175f3e31cdcbc334e75e2fcc46b57531.jpg"
+                                            alt="O pequeno principe" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">O pequeno principe</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/2d/1d/2b/2d1d2bc17b76dd82844b6d17187e09a9.jpg"
+                                            alt="Kimetsu no yaiba" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Kimetsu no yaiba</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/11/d0/ee/11d0ee3612a4e3f4f63c0560b579d057.jpg"
+                                            alt="O grande urso esfomeado" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">O grande urso esfomeado</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/68/4a/98/684a989ac7392082542f45cf99bf324e.jpg"
+                                            alt="Capitão america" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Capitão america</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- JOGOS DE TABULEIRO/CARDGAMES -->
+                            <div class="tab-pane" id="tabuleiro-cardgame">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/236x/79/79/2b/79792b81921e84ae31dc788eb22594e4.jpg"
+                                            alt="Catan (Settlers of Catan)" hidden="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Catan (Settlers of Catan)</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/f9/b6/b5/f9b6b5ddb8eb7eeede66a253c1cee62a.jpg"
+                                            alt="Carcassonne" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Carcassonne</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/37/8c/ea/378cea26e76b947aafa93548db8167f3.jpg"
+                                            alt="Magic: The Gathering" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Magic: The Gathering</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/77/3a/be/773abe86e963c83e660a9e393dd65508.jpg"
+                                            alt="Uno" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">Uno</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/0f/98/f9/0f98f9c4cc393dc1cb7004f5448ebc70.jpg"
+                                            alt="yu gi oh cards" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">yu gi oh cards</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="https://i.pinimg.com/564x/bb/e0/b1/bbe0b1c06a432360d773b4895bffbb51.jpg"
+                                            alt="pokemon" height="200px">
+                                        <h5 class="text-colored fw-bold mt-2">pokemon</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- AREA DE CONTATOS -->
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 text-center">
+                                <label for="nome" class="form-label fw-bold text-colored section-title">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3 text-center">
+                                <label for="email" class="form-label fw-bold text-colored section-title">Seu
+                                    email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3 text-center">
+                                <label for="telefone" class="form-label fw-bold text-colored section-title">Seu telefone
+                                    (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3 text-center">
+                                <label for="mensagem" class="form-label fw-bold text-colored section-title">Sua
+                                    mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 text">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 text ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 text">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Novo Mundo nº 32, Bairro baratie - One Piece - OP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- AREA DE CDIGOS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
